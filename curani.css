@@ -1,3 +1,7 @@
 .card-img-top[alt='Wolf Headshot'] {
 	border-radius: 50%;
 }
+
+.card.mb3:nth-of-type(1) {
+	background: none;
+}
