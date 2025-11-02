@@ -6,6 +6,6 @@
 	background: none;
 }
 
-.img[alt~='Pregnant']::after {
+img[alt~='Pregnant']::after {
 	content: "pregananant??"
 }
