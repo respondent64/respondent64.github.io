@@ -2,6 +2,6 @@
 	border-radius: 50%;
 }
 
-.card.mb3:nth-of-type(1) {
+#main .card {
 	background: none;
 }
