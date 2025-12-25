@@ -5,3 +5,14 @@
 .table[data-cave-key] .fa-mars {
     color: skyblue;
 }
+
+@font-face {
+    font-family: 'Aquiline Two'; /* set name */
+    src: url(AquilineTwo.ttf); /* url of the font */
+}
+
+.pack-title {
+    font-family: 'Aquiline Two';
+    src: url(AquilineTwo.ttf);
+    font-size: 24px;
+}
