@@ -15,12 +15,11 @@
     font-family: 'Aquiline Two';
     font-size: 36px;
     text-align: center;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column-start: span 3;
 }
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
