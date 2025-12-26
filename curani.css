@@ -11,15 +11,50 @@
     src: url(AquilineTwo.ttf); /* url of the font */
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr 1fr;
+}
+
 .pack-title {
     font-family: 'Aquiline Two';
     font-size: 36px;
     text-align: center;
-    grid-column-start: span 3;
+    grid-column: span 2;
+    grid-row: 1;
 }
 
-.content {
+.leads {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-rows: .1fr .2fr;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.rhanes {
+    display: grid;
+    transform: scaleX(-1);
+    z-index: 2;
+    align-items: center;
+    grid-column: span 2/3;
+    grid-row: 1 / span 2;
+}
+
+.galva {
+    z-index: 1;
+    grid-column: span 2/4;
+    grid-row: 1;
+}
+
+.leads div {
+    display: grid;
+}
+
+.leads img {
+    grid-row: 1;
+    grid-column: 1;
+    position: relative;
+    margin-top: -10%;
 }
